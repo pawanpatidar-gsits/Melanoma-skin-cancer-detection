@@ -37,20 +37,22 @@ For this project, we are utilizing a comprehensive dataset of skin images that i
 ## Model Architecture
 The CNN model architecture consists of multiple convolutional and pooling layers followed by fully connected layers. The architecture was designed to learn relevant features from the images for accurate classification.
 
-![Model Architecture](images/model_architecture.png)
+![[Model Architecture]](https://github.com/user-attachments/assets/80b8bbb2-361b-40ec-ace4-933ae52dc911)
+
+
 Figure 1: CNN model architecture for melanoma detection.
 
 ## Conclusions
 1. **Model Training Progress**:
-   - The model was trained for 27 epochs before early stopping was triggered.
+   - The model was trained for 26 epochs before early stopping was triggered.
    - The training loss decreased progressively over the epochs, indicating the model's learning and convergence.
    - Training accuracy improved with each epoch, reaching approximately 89.10% by the end.
 
 2. **Validation Performance**:
-   - The validation accuracy improved consistently with each epoch, peaking at around 92.28%.
+   - The validation accuracy improved consistently with each epoch, peaking at around 89.80%.
    - Validation loss decreased as the model learned, highlighting its ability to generalize well on unseen data.
    
-![image](https://github.com/user-attachments/assets/1a2db083-743d-4756-b0cc-55769d5b7071)
+![Model accuracy and loss](https://github.com/user-attachments/assets/1a2db083-743d-4756-b0cc-55769d5b7071)
 
 Figure 2: Model accuracy and loss during training and validation.
 
